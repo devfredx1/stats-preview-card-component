@@ -39,3 +39,11 @@ body {
   i used opacity when it was hsl to make the image show, i dont know about the hsla it was from your own code i copied it from
   also i noticed in the hsla it had 0.55 */
 }
+
+.card-content {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 2rem;
+  text-align: center;
+}
