@@ -47,3 +47,25 @@ body {
   padding: 2rem;
   text-align: center;
 }
+
+.card h1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+
+.card h1,
+.card p {
+  padding: 0 0 2rem;
+}
+
+.card p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats {
+  color: hsl(0, 0%, 100%);
+}
+
+.stats dt {
+  color: hsla(0, 0%, 100%, 0.6);
+}
