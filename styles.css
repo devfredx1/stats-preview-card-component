@@ -29,11 +29,7 @@ body {
 .overlay {
   position: absolute;
   inset: 0;
-  background-color: hsl(277, 64%, 61%);
-  background: hsla(277, 64%, 61%, 0.55);
-  /* when hsl is used the color was blocking the image when i used hsla it didn't block the image
-  i used opacity when it was hsl to make the image show, i dont know about the hsla it was from your own code i copied it from
-  also i noticed in the hsla it had 0.55 */
+  background-color: hsla(277, 64%, 61%, 0.55);
 }
 
 /* card styles */
