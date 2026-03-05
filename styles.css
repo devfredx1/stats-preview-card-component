@@ -21,7 +21,7 @@ body {
   overflow: hidden;
 }
 
-.card-content {
+.card-content-inner {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 15px;
@@ -100,8 +100,16 @@ span {
   }
 
   .card-content {
+    flex: 1;
+  }
+
+  .card-content-inner {
     text-align: left;
     padding: 5rem 6rem;
+  }
+
+  .card-image-wrapper {
+    flex: 1;
   }
 
   .stats {
