@@ -52,7 +52,7 @@ body {
   font-weight: 700;
 }
 
-span {
+.card h1 span {
   color: hsl(277, 64%, 61%);
 }
 .card h1,
@@ -67,15 +67,17 @@ span {
 /* stats section */
 .stats {
   color: hsl(0, 0%, 100%);
+  list-style-type: none;
 }
 
-.stats dd {
+.stats .stat-number {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats .stat-label {
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-}
-.stats dt {
-  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .stat {
