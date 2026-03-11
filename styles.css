@@ -70,19 +70,19 @@ body {
 }
 
 .stats .stat-number {
-  color: hsla(0, 0%, 100%, 0.6);
-}
-
-.stats .stat-number {
   font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
+.stats .stat-label {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
 .stat {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  gap: 0.5rem;
 }
 
 /* Desktop styles */
