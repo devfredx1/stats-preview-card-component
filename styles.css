@@ -28,6 +28,7 @@ body {
 
 .card-image {
   width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
 }
@@ -58,7 +59,7 @@ body {
   font-weight: 700;
 }
 
-.card h1 span {
+.highlight {
   color: hsl(277, 64%, 61%);
 }
 .card h1,
@@ -94,6 +95,9 @@ body {
 
 /* Desktop styles */
 @media (min-width: 768px) {
+  body {
+    padding: 10rem 9rem;
+  }
   .card {
     display: flex;
     flex-direction: row-reverse;
