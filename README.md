@@ -30,10 +30,13 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/semantic-html5-css-flexbox-mobile-first-workflow-responsive-imag-IgxtmFyR4S)
+- Live Site URL: (https://devfredx1.github.io/stats-preview-card-component/)
 
 ## My process
+
+- started with the html structure
+- styled using css to match the design with mobile first approach before adding breakpoints fo desktop design
 
 ### Built with
 
